@@ -72,6 +72,10 @@ sudo yum install ffmpeg       # For Red Hat/CentOS
 brew install ffmpeg           # For macOS
 ```
 
+## Modifications
+
+'ffplay' overlay pin locations are based on the example text. I didn't play around too much with how different overlay text strings would work on placement. See https://ffmpeg.org/ffmpeg-filters.html#overlay-1 for more information on correcting any issues that crop up when modifying.
+
 ## License
 
 This project is licensed under the MIT License. Feel free to modify and adapt it for your own use.
