@@ -26,7 +26,7 @@ This script is ideal for stores or businesses that want to show a live security 
 ```bash
 camera-display/
 │
-├── camera-config.cfg          # Configuration file storing RTSP URL
+├── config.cfg                 # Configuration file storing RTSP URL
 ├── camera-display.sh          # Main script that runs the RTSP stream with overlay and text
-├── monitor-watchdog.sh        # Watchdog script that monitors the camera and restarts the display script
+├── run.sh                     # Watchdog script that monitors the camera and restarts the display script
 └── overlay.png                # Image file for overlay (replace with your own)
