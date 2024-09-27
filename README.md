@@ -30,3 +30,9 @@ camera-display/
 ├── camera-display.sh          # Main script that runs the RTSP stream with overlay and text
 ├── run.sh                     # Watchdog script that monitors the camera and restarts the display script
 └── overlay.png                # Image file for overlay (replace with your own)
+
+### `camera-config.cfg`
+This file contains the RTSP URL for the camera stream in the following format:
+
+```bash
+RTSP_URL="rtsp://user:password@192.168.1.100:554/Streaming/Channels/1"
