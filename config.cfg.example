@@ -1,3 +1,0 @@
-RTSP_URL="rtsp://user:password@0.0.0.0:554/Streaming/Channels/101"
-OVERLAY_IMAGE="overlay720.png"
-OVERLAY_TEXT="Recording in Progress"
